@@ -70,7 +70,9 @@ const SkillItem = ({title, percentage}) => {
     <div className="skill_data">
     <div className="skill_title">
         <h6>{title}</h6>
-        <span className='percent'></span>
+        <div className="percent">
+        <span>{percentage}</span>
+        </div>
     </div>
     <div className="skill_bar">
         <span className="skill_bar-percentage" style={{width: `${percentage}`}}>

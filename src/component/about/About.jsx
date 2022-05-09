@@ -20,10 +20,9 @@ const About = () => {
             </Col>
             <Col lg='4' md='3'>
             <div className="about_btns">
-                <button className="about_btn about_btn-active" onClick={()=>setAboutFilter("ABOUT")}>About Me</button>
-                <button className="about_btn" onClick={()=>setAboutFilter("EDUCATION")}>Education</button>
-                <button className="about_btn"onClick={()=>setAboutFilter("SKILL")}>Skills</button>
-                <button className="about_btn">Award</button>
+                <button className={`about_btn ${aboutFilter === 'ABOUT' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("ABOUT")}>About Me</button>
+                <button className={`about_btn ${aboutFilter === 'EDUCATION' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("EDUCATION")}>Education</button>
+                <button className={`about_btn ${aboutFilter === 'SKILL' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("SKILL")}>Skills</button>
             </div>
             </Col>
             <Col lg='8' md='9'>
