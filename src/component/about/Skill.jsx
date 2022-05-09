@@ -38,26 +38,47 @@ const graphicDesign = [
 ]
 
 const Skill = () => {
-  return <div className='skill_wrapper d-flex justify-content-between'>
+  return <div className='skill_wrapper'>
       <div className="frontend_skill">
           {
               frontendSkill.map((item,index) =>(
-                  <div className="skill_data">
-                      <div className="skill_title">
-                          <h6>{item.title}</h6>
-                          <span>{item.percentage}</span>
-                      </div>
-                      <div className="skill_bar">
-                          <span className="skill_bar-percentage">
-
-                          </span>
-                      </div>
-                  </div>
+                  <SkillItem
+                  key={index}
+                  title={item.title}
+                  percentage={item.percentage}
+                  />       
               ))
           }
       </div>
-      <div className="graphicdesign_skill"></div>
+      <div className="graphicdesign_skill">
+          {
+              graphicDesign.map((item, index) => (
+                  <SkillItem
+                  key={index}
+                  title={item.title}
+                  percentage={item.percentage}
+                  />
+              ))
+          }
+
+      </div>
   </div>
+}
+
+const SkillItem = ({title, percentage}) => {
+    return (
+    <div className="skill_data">
+    <div className="skill_title">
+        <h6>{title}</h6>
+        <span className='percent'></span>
+    </div>
+    <div className="skill_bar">
+        <span className="skill_bar-percentage" style={{width: `${percentage}`}}>
+
+        </span>
+    </div>
+</div>
+)
 }
 
 export default Skill

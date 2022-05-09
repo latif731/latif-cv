@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './about.css'
-import {Container, Row, Col} from 'reactstrap'
+import {Container, Row, Col} from 'reactstrap';
 import aboutImg from '../../asset/image/latif.png'
 
 import Education from './Education'
@@ -27,7 +27,6 @@ const About = () => {
             </div>
             </Col>
             <Col lg='8' md='9'>
-
 
                 {
                     aboutFilter === 'ABOUT' &&  <div className="about_content_wrapper">

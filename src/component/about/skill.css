@@ -2,10 +2,13 @@
     background: #132347;
     padding: 20px;
     border-radius: 10px;
+    overflow: hidden;
+    overflow-y:scroll;
+    height: 260px;
 }
 
 .skill_bar{
-    width: 1000%;
+    width: 70%;
     position: relative;
     background: #fff;
     z-index: 999;
@@ -13,3 +16,25 @@
     border-radius: 50px;
 }
 
+.skill_bar-percentage{
+    background: #7865ff !important;
+    height: 5px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: left;
+}
+
+.skill_title span{
+    color: #fff;
+}
+
+.skill_title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.percent{
+    margin:0 100px;
+}
