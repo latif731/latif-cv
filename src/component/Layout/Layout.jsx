@@ -2,9 +2,11 @@ import React, { Fragment } from 'react'
 import Header from '../Header/Header'
 import HeroSection from '../hero-section/HeroSection'
 import About from '../about/About'
-import Services from '../services/Services'
 import Experience from '../experience/Experience'
 import Portfolio from '../portofolio/Portfolio'
+import Contact from '../contact/Contact'
+import Footer from '../footer/Footer'
+import Certificate from '../services/Certificate'
 
 const Layout = () => {
   return (
@@ -12,9 +14,11 @@ const Layout = () => {
       <Header/>
       <HeroSection/>
       <About/>
-      <Services/>
+      <Certificate/>
       <Experience/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
+      <Contact/>
+      <Footer/>
     </Fragment>
   )
 }

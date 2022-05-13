@@ -1,61 +1,58 @@
 import React from 'react'
 import {Container, Row, Col, NavItem} from 'reactstrap'
 import './service.css'
+import CER1 from '../../asset/image/osis.jpg'
+import CER2 from '../../asset/image/pramuka.jpg'
+import CER3 from '../../asset/image/theater.jpg'
+import CER4 from '../../asset/image/pala.jpg'
+import CER5 from '../../asset/image/pala2.jpg'
 
 
-const serviceData = [
+const certificateData = [
     {
         icon: 'ri-code-line',
-        title: 'web design',
+        title: `${CER1}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
     {
         icon: 'ri-code-line',
-        title: 'web design',
+        title: `${CER5}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
     {
         icon: 'ri-code-line',
-        title: 'web design',
+        title: `${CER3}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
     {
         icon: 'ri-code-line',
-        title: 'web design',
+        title: `${CER4}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
     {
         icon: 'ri-code-line',
-        title: 'web design',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
-    },
-    {
-        icon: 'ri-code-line',
-        title: 'web design',
+        title: `${CER2}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
 ]
 
 
-const Services = () => {
+const Certificate = () => {
   return (
     <section id="services">
         <Container>
             <Row>
-                <Col lg='12' className="service_top">
-                    <h6>Features</h6>
-                    <h2>What Services I Provide</h2>
+                <Col lg='12' className="service_top mb-4">
+                    <h2>My Certificate</h2>
                 </Col>
-
                 {
-                    serviceData.map((item, index) => (
-                <Col lg="4" md="6" sm="6" className="mb-4" key={index}>
+                    certificateData.map((item, index) => (
+                <Col className="mb-4 box" key={index}>
                     <div className="single_service">
                         <span className="service_icon">
-                        <i class={item.icon}></i>
                         </span>
-                        <h2>{item.title}</h2>
-                        <p>{item.desc}</p>
+                        <img className='cerimg' src={item.title}/>
+                        {/* <p>{item.desc}</p> */}
                     </div>
                 </Col>                  
                     ))
@@ -67,4 +64,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Certificate
