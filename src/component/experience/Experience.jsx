@@ -4,19 +4,19 @@ import './experience.css'
 
 const developmentExp = [
     {
-        year: '2020 - 2021',
-        title: 'Sr. Frontend Developer',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium optio corporis'
+        year: '2015-2018',
+        title: 'Catering Service',
+        desc: 'bertugas mempersiapkan makanan dan drygood yang nantinya akan disupply ke dalam pesawat, memonitor rute penerbangan agar jumlah makanan dan drygood yang di supply pas sesuai dengan jumlah rute yang dilalui pesawat, menghitung stok keluar masuk barang yang di supply ke pesawat,'
     },
     {
-        year: '2020 - 2021',
-        title: 'Sr. Frontend Developer',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium optio corporis'
+        year: '2019 - 2020',
+        title: 'Flight Operation Officer Internship',
+        desc: 'bertugas mengatur jadwal penerbangan, mempersiapkan dokumen penerbangan sebelum scedule keberangkatan pesawat, membriefing pilot dan co-pilot sebelum keberangkatan pesawat, menghitung jumlah bahan bakar yang dikonsumsi oleh pesawat, menghitung keseimbangan pesawat berdasarkan jumlah penumpang dan bagasi'
     },
     {
-        year: '2020 - 2021',
-        title: 'Sr. Frontend Developer',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium optio corporis'
+        year: 'Freelance',
+        title: 'Sablon Kaos',
+        desc: 'Mendesign dan mencetak baju sesuai dengan keinginan pelanggan'
     },
 ]
 

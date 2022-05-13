@@ -5,6 +5,7 @@ import heroimg from '../../asset/image/latif.png'
 // import { Typewriter } from 'react-simple-typewriter'
 import 'react-simple-typewriter/dist/index.js'
 import { Typewriter } from 'react-simple-typewriter'
+import CV from "../../asset/image/cv1.png"
 
 const HeroSection = () => {
 
@@ -37,7 +38,7 @@ const HeroSection = () => {
                         </h2>
 
                         <div className="mt-5 hero_btns d-flex align-items-center gap-4">
-                            {/* <button className='btn hire_btn'><a href="#">Hire Me</a></button> */}
+                            <button className='btn hire_btn'><a href={CV} download>Hire Me</a></button>
                             {/* <button className='btn'>Contact</button> */}
                         </div>
                     </div>

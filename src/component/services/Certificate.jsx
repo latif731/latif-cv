@@ -35,6 +35,11 @@ const certificateData = [
         title: `${CER2}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
+    {
+        icon: 'ri-code-line',
+        title: `${CER6}`,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
+    },
 
 ]
 
