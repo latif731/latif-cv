@@ -18,11 +18,6 @@ const developmentExp = [
         title: 'Sr. Frontend Developer',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium optio corporis'
     },
-    {
-        year: '2020 - 2021',
-        title: 'Sr. Frontend Developer',
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, praesentium optio corporis'
-    },
 ]
 
 const Experience = () => {
@@ -34,7 +29,7 @@ const Experience = () => {
                     <h2>Experience</h2>
                 </Col>
 
-                <Col lg="6" md='6'>
+                <Col>
 
                     <div className="single_experience-container">
                     {
@@ -50,7 +45,7 @@ const Experience = () => {
                     </div>
                 </Col>
 
-                <Col lg="6" md='6'>
+                {/* <Col lg="6" md='6'>
 
                     <div className="single_experience-container">
                     {
@@ -64,7 +59,7 @@ const Experience = () => {
                         ))
                     }
                     </div>
-                </Col>
+                </Col> */}
             </Row>
         </Container>
     </section>

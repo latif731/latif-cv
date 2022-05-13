@@ -33,19 +33,14 @@ const About = () => {
                         <img src={aboutImg} alt="" className='latifabout'/>
                     </div>
                     <div className="about_content w-75">
-                        <h2>I'm Latif Budi Pamungkas</h2>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error temporibus magnam, 
-                            repudiandae molestias consequatur accusamus? Officiis, incidunt! Earum, 
-                            alias molestiae ad officiis aspernatur temporibus esse quam sapiente, 
-                            nulla accusantium accusamus?
+                            Saya senang sekali dalam membangun relasi untuk menambah wawasan dan pengetahuan, menyukai tantangan serta mampu bekerja dibawah tekanan, moto saya adalah tetap semangat dan terus belajar demi masa depan yang lebih baik.
                         </p>
                         <div className="social_link">
                             <h6>Contact With Me:</h6>
-                            <span className='link'><i class="ri-facebook-line"></i></span>
-                            <span className='link'><i class="ri-gitlab-line"></i></span>
-                            <span className='link'><i class="ri-github-line"></i></span>
-                            <span className='link'><i class="ri-linkedin-line"></i></span>
+                            <a href='https://twitter.com/latif57647992'><span className='link'><i class="ri-twitter-line"></i></span></a>
+                            <a href='https://www.instagram.com/pamungkaslatifbudi/'><span className='link'><i class="ri-instagram-line"></i></span></a>
+                            <a href='https://www.linkedin.com/in/latif-budi-pamungkas-8746041a6/'><span className='link'><i class="ri-linkedin-line"></i></span></a>
                         </div>
 
                     </div>

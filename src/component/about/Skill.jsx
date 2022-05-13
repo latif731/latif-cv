@@ -2,38 +2,55 @@ import React from 'react'
 import './skill.css'
 
 const frontendSkill = [
-    {
-        title: 'Javascript',
-        width: '85%',
-        percentage:'85%'
-    },
-    {
-        title: 'Reactjs',
-        width: '85%',
-        percentage:'85%'
-    },
-    {
-        title: 'Redux',
-        width: '85%',
-        percentage:'85%'
-    },
-    {
-        title: 'bootstrap',
-        width: '85%',
-        percentage:'85%'
-    },
+    // {
+    //     title: 'Javascript',
+    //     width: '85%',
+    //     percentage:'85%'
+    // },
+    // {
+    //     title: 'Reactjs',
+    //     width: '85%',
+    //     percentage:'85%'
+    // },
+    // {
+    //     title: 'Redux',
+    //     width: '85%',
+    //     percentage:'85%'
+    // },
+    // {
+    //     title: 'bootstrap',
+    //     width: '85%',
+    //     percentage:'85%'
+    // },
 ]
 
 const graphicDesign = [
     {
         title: 'Photoshop',
-        width: '85%',
-        percentage:'85%'
+        width: '70%',
+        percentage:'70%'
     },
     {
         title: 'CorelDraw',
-        width: '85%',
-        percentage:'85%'
+        width: '70%',
+        percentage:'70%'
+    },
+]
+const microsoft = [
+    {
+        title: 'Ms. Word',
+        width: '78%',
+        percentage:'78%'
+    },
+    {
+        title: 'Ms. Excell',
+        width: '60%',
+        percentage:'60%'
+    },
+    {
+        title: 'Ms. Power Point',
+        width: '70%',
+        percentage:'70%'
     },
 ]
 
@@ -53,6 +70,18 @@ const Skill = () => {
       <div className="graphicdesign_skill">
           {
               graphicDesign.map((item, index) => (
+                  <SkillItem
+                  key={index}
+                  title={item.title}
+                  percentage={item.percentage}
+                  />
+              ))
+          }
+
+      </div>
+      <div className="graphicdesign_skill">
+          {
+              microsoft.map((item, index) => (
                   <SkillItem
                   key={index}
                   title={item.title}

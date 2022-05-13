@@ -6,30 +6,26 @@ const Education = () => {
     <table>
         <thead>
             <tr>
-                <th>Degree</th>
-                <th>Department</th>
-                <th>institute</th>
-                <th>year</th>
+                <th>Jenjang Pendidikan</th>
+                <th>Nama Sekolah/Perguruan Tinggi</th>
+                <th>Tahun Lulus</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>BBA</td>
-                <td>Accounting</td>
-                <td>Balya</td>
-                <td>2020-present</td>
+                <td>SMAN</td>
+                <td>SMAN 1 Mejayan</td>
+                <td>2014</td>
             </tr>
             <tr>
-                <td>BBA</td>
-                <td>Accounting</td>
-                <td>Balya</td>
-                <td>2020-present</td>
+                <td>SMPN</td>
+                <td>SMPN 1 Wonoasri</td>
+                <td>2011</td>
             </tr>
             <tr>
-                <td>BBA</td>
-                <td>Accounting</td>
-                <td>Balya</td>
-                <td>2020-present</td>
+                <td>SDN</td>
+                <td>SDN Jatirejo</td>
+                <td>2008</td>
             </tr>
         </tbody>
     </table>
