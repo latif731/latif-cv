@@ -18,3 +18,5 @@ status = 200
 
     # The Basic-Auth header may not be available on all plans.
     Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
+
+Google Maps API Key = AIzaSyDQD8AYnp3ckM2IrYC6ZmLmkQHAMHKZtkU

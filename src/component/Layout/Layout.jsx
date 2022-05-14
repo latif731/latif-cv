@@ -10,6 +10,7 @@ import Certificate from '../services/Certificate'
 import Trainning from '../trainning/Trainning'
 import Map from '../map/Map'
 import MapGoogle from '../map/Map'
+import Ggm from '../map/Map'
 
 const Layout = () => {
   return (
@@ -19,9 +20,9 @@ const Layout = () => {
       <About/>
       <Certificate/>
       <Experience/>
-      {/* <Portfolio/> */}
       <Trainning/>
       <Contact/>
+      {/*  */}
       {/* <MapGoogle/> */}
       <Footer/>
     </Fragment>
