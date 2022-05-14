@@ -33,7 +33,7 @@ const Contact = () => {
                 <Map/>
                 </div>
             </div>
-            <div className='single_info-box'>
+            <div className='vvvv'>
                 <Form/>
             </div>
         </Row>
