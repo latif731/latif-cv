@@ -22,14 +22,7 @@ const HeroSection = () => {
                         <h1 className='hero_title mb-4'>
                         <span style={{ color: 'red', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
-          <Typewriter
-            words={['Assalamualaikum wr.wb', 'Welcome to my personal data']}
-            loop={5}
-            cursor
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-          />
+            Assalamualaikum wr. wb.
         </span>
                        </h1>
                         <h2>
