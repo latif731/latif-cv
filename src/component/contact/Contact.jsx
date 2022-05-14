@@ -17,7 +17,7 @@ const Contact = () => {
                 <div className="contact_info_container d-flex align-items-center gap-5">
                     <div className="single_info-box  w-50">
                         <h6>Address</h6>
-                        <p>Bangladeslsdfmgkl;ms</p>
+                        <p>Ds. Jatirejo Rt. 12/Rw. 02 Kec. Wonoasri Kab. Madiun</p>
                     </div>
                     <div className="single_info-box w-50">
                         <h6>Phone</h6>

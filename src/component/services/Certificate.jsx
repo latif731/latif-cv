@@ -46,7 +46,7 @@ const certificateData = [
 
 const Certificate = () => {
   return (
-    <section id="services">
+    <section id="certificate">
         <Container>
             <Row>
                 <Col lg='12' className="service_top mb-4">
