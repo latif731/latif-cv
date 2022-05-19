@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react';
 import Main from './component/cover/Main';
-import './App.css'
+import './app.css'
 import Layout from './component/Layout/Layout';
 import ParticleBackground from './component/particle/ParticleBackground'
 import "aos/dist/aos.css";
