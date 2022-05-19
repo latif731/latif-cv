@@ -1,5 +1,4 @@
 import React from 'react'
-// import videoBg from '../assets/videoBg.mp4'
 import videoBg1 from '../../asset/video/MyVideo.mp4'
 import './main.css'
 
