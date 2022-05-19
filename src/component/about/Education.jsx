@@ -7,7 +7,7 @@ const Education = () => {
         <thead>
             <tr>
                 <th>Jenjang Pendidikan</th>
-                <th>Nama Sekolah/Perguruan Tinggi</th>
+                <th>Nama Sekolah</th>
                 <th>Tahun Lulus</th>
             </tr>
         </thead>

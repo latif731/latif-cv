@@ -8,9 +8,10 @@ import Contact from '../contact/Contact'
 import Footer from '../footer/Footer'
 import Certificate from '../services/Certificate'
 import Trainning from '../trainning/Trainning'
-import Map from '../map/Map'
-import MapGoogle from '../map/Map'
-import Ggm from '../map/Map'
+// import Map from '../map/Map'
+// import MapGoogle from '../map/Map'
+// import ParticleBackground from '../../ParticleBackground'
+import Main from '../cover/Main'
 
 const Layout = () => {
   return (
@@ -20,10 +21,9 @@ const Layout = () => {
       <About/>
       <Certificate/>
       <Experience/>
+      {/* <Portfolio/> */}
       <Trainning/>
       <Contact/>
-      {/*  */}
-      {/* <MapGoogle/> */}
       <Footer/>
     </Fragment>
   )

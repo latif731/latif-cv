@@ -19,20 +19,23 @@ const About = () => {
             <h2>About Me</h2>
             </Col>
             <Col lg='4' md='3'>
-            <div className="about_btns">
+            <div className="about_btns" data-aos="fade-up"
+     data-aos-duration="3000">
                 <button className={`about_btn ${aboutFilter === 'ABOUT' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("ABOUT")}>About Me</button>
                 <button className={`about_btn ${aboutFilter === 'EDUCATION' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("EDUCATION")}>Education</button>
                 <button className={`about_btn ${aboutFilter === 'SKILL' ? 'about_btn-active' : ''}`}onClick={()=>setAboutFilter("SKILL")}>Skills</button>
             </div>
             </Col>
-            <Col lg='8' md='9'>
+            <Col lg='8' md='9' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
 
                 {
                     aboutFilter === 'ABOUT' &&  <div className="about_content_wrapper">
                     <div className="about_img">
                         <img src={aboutImg} alt="" className='latifabout'/>
                     </div>
-                    <div className="about_content w-75">
+                    <div className="about_content">
                         <p>
                             Saya senang sekali dalam membangun relasi untuk menambah wawasan dan pengetahuan, menyukai tantangan serta mampu bekerja dibawah tekanan, moto saya adalah tetap semangat dan terus belajar demi masa depan yang lebih baik.
                         </p>

@@ -1,3 +1,31 @@
+#text_div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.center_all {
+  /* position: absolute; */
+  top: 370%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  /* color: white; */
+}
+
+/* .header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} */
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
@@ -5,15 +33,16 @@
 
 
 
-/* base style */
+ /* base style */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 body{
-  background: #0E1B31 !important;
+   background: #0E1B31 !important; 
 }
 
 html{
@@ -71,3 +100,4 @@ section, footer {
   border-radius: 2em;
   background: #282f4e;
 }
+

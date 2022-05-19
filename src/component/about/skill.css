@@ -4,11 +4,11 @@
     border-radius: 10px;
     overflow: hidden;
     overflow-y:scroll;
-    height: 260px;
+    height: 195px;
 }
 
 .skill_bar{
-    width: 87%;
+    width: 93%;
     position: relative;
     background: #fff;
     z-index: 999;
@@ -33,9 +33,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 5px;
 }
 
-.percent{
-    margin:0 100px;
+
+.persen{
+    margin:0 50px;
 }

@@ -15,10 +15,6 @@ const navLinks = [
     display:'Certificate',
     url:'#certificate'
   },
-  // {
-  //   display:'Portfolio',
-  //   url:'#home'
-  // },
   {
     display:"Experience",
     url:"#Experience"
